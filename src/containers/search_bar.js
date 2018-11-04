@@ -6,6 +6,9 @@ class SearchBar extends Component{
 
     this.state = {term: ''};
   }
+onInputChange(event){
+  this.setState({term: event.target.value});
+}
   render(){
     return(
       <form className="input-group">
