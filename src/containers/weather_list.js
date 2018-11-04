@@ -2,11 +2,7 @@ import React, {Component} from 'react';
 import {connect} from 'react-redux';
 
 class WeatherList extends Component{
-  renderWeather(cityData){
-    return(
-
-    );
-  }
+  
   render(){
     return(
       <table className="table table-hover">
