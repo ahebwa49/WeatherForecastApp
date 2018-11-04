@@ -20,8 +20,7 @@ onInputChange(event){
         onChange={this.onInputChange}
         />
         <span className="input-group-btn">
-          <button className="btn btn-secondary">
-          </button>
+          <button onClick={} onClickclassName="btn btn-secondary">Search</button>
         </span>
       </form>
     );
