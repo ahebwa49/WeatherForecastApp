@@ -11,6 +11,7 @@ export default function fetchWeather(city){
 
   return {
     type: FETCH_WEATHER,
+    payload: request
   }
 
 
