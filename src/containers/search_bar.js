@@ -13,7 +13,7 @@ class SearchBar extends Component{
         className="form-control"
         placeholder="Enter your favorite city to get forecast for next five days"
         value={this.state.term}
-        
+        onChange={this.onInputChange}
         />
       </form>
     );
