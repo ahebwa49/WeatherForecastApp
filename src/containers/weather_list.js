@@ -21,5 +21,7 @@ class WeatherList extends Component{
   }
 }
 function mapStateToProps(state){
-
+  return {
+    weather: state.weather
+  }
 }
