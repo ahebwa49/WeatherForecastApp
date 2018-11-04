@@ -12,6 +12,7 @@ onInputChange(event){
 }
 onFormSubmit(event){
   event.preventDefault();
+  this.props.fetchWeather(this.state.term);
 }
   render(){
     return(
