@@ -11,7 +11,9 @@ class SearchBar extends Component{
       <form className="input-group">
         <input
         className="form-control"
-        placeholder="Enter yout favorite city to get forecast for next five days"
+        placeholder="Enter your favorite city to get forecast for next five days"
+        value={this.state.term}
+        
         />
       </form>
     );
