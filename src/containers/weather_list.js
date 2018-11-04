@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import {connect} from 'react-redux';
 
 class WeatherList extends Component{
   render(){
@@ -18,4 +19,7 @@ class WeatherList extends Component{
       </table>
     );
   }
+}
+function mapStateToProps(state){
+
 }
