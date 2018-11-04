@@ -19,6 +19,9 @@ onInputChange(event){
         value={this.state.term}
         onChange={this.onInputChange}
         />
+        <span className="input-group-btn">
+          
+        </span>
       </form>
     );
   }
