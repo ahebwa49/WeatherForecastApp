@@ -19,7 +19,7 @@ onFormSubmit(event){
 }
   render(){
     return(
-      <form className="input-group">
+      <form onSubmit={this.onFormSubmit} className="input-group">
         <input
         className="form-control"
         placeholder="Enter your favorite city to get forecast for next five days"
@@ -27,7 +27,7 @@ onFormSubmit(event){
         onChange={this.onInputChange}
         />
         <span className="input-group-btn">
-          <button onClick={this.onFormSubmit} onClickclassName="btn btn-secondary">Search</button>
+          <button type="submit" className="btn btn-secondary">Search</button>
         </span>
       </form>
     );
